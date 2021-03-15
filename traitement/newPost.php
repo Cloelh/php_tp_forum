@@ -9,8 +9,8 @@
         if(isset($_SESSION['id'])){
             $idAuteur = $_SESSION['id'];
             if(strlen($title) < 255 ) {
-                $insertPost = $bdd->prepare("INSERT INTO post(title, content, id_user, id_cat) VALUES(?, ?, ?, ?)");
-                $insertPost->execute(array($title, $content, $idCat, $idAuteur));
+                $insertPost = $bdd->prepare("INSERT INTO post(title, content, id_user, id_cat, valider) VALUES(?, ?, ?, ?, ?)");
+                $insertPost->execute(array($title, $content, $idAuteur, $idCat, 0));
                 header("Location: index.php?action=home");
             } else {
                 echo "titre top long";

@@ -76,9 +76,26 @@ nav.list-categorie{
         }
 
 /* liste de post */
+span a{
+    color: white;
+    transition: color .2s ease;
+}
+
+span a:hover{
+    color: silver;
+}
+
+
 span.categorie{
     background-color: #4B36AC;
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
-    color: white;
 }
+
+span.valider{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+

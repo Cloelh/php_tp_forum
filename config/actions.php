@@ -9,6 +9,7 @@ $listeDesActions = array(
     "createPost" => "vues/createPost.php",
     "pagePost" => "vues/pagePost.php",
     "pageCategorie" => "vues/pageCategorie.php",
+    "myPost" => "vues/myPost.php",
 
     //traitement
     "register" => "traitement/register.php",
@@ -16,6 +17,7 @@ $listeDesActions = array(
     "logout" => "traitement/logout.php",
     "newPost" => "traitement/newPost.php",
     "sendResponse" => "traitement/sendResponse.php",
+    "validerPost" => "traitement/validerPost.php",
 
 )
 

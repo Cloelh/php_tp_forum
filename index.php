@@ -24,9 +24,10 @@
     <nav class="navbar d-flex justify-content-around">
         <a href="index.php?action=home"><img src="images/logo.svg" alt="logo" width="200px"></a>
         <?php if(isset($_SESSION['id'])){ ?>
-            <a href="action=logout">Se déconnexion</a>
+            <a href="index.php?action=myPost">Mes posts</a>
+            <a href="index.php?action=logout">Se déconnexion</a>
         <?php } else { ?>
-            <a href="action=connexion">Se connecter</a>
+            <a href="index.php?action=connexion">Se connecter</a>
         <?php } ?>
     </nav>
     <nav class="navbar list-categorie d-flex justify-content-around">
