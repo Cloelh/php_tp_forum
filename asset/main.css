@@ -1,0 +1,84 @@
+*{
+    font-family:Helvetica, sans-serif;
+}
+
+.light{color: #ededed;}
+a{
+    text-decoration: none !important;
+}
+.marge{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button{
+    background-color: #4B36AC;
+    color: white;
+    border-radius: 20px;
+    padding: 12px 10px 12px 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, .20);
+}
+
+    .button img{
+       margin-left: 10px;
+    }
+
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4B36AC;
+}    
+
+/* nav */
+nav.list-categorie{
+    background-color: #4B36AC;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, .25);
+}
+    nav.list-categorie a{
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-decoration: none;
+        transition: opacity .2s ease;
+    }
+        nav.list-categorie a:hover{
+            opacity: .5;
+        }
+
+
+/* Login */
+.login{
+    min-height: 85vh;
+}
+
+    .connexion, .inscription{
+        width: 400px;
+        height: 500px;
+        padding: 30px !important;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+        .connexion input, .inscription input{
+            background-color: #171717;
+            color: #ededed;
+            border: #ededed 1px solid;
+            margin-bottom: 10px;
+        }
+
+        .connexion .btn, .inscription .btn{
+            background-color: #ededed !important;
+            color: #964e4e !important;
+            border-color: #964e4e !important;
+        }
+
+/* liste de post */
+span.categorie{
+    background-color: #4B36AC;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
