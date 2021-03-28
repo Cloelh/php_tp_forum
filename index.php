@@ -27,7 +27,7 @@
             <a href="index.php?action=myPost">Mes posts</a>
             <a href="index.php?action=logout">Se déconnexion</a>
         <?php } else { ?>
-            <a href="index.php?action=connexion">Se connecter</a>
+            <a href="index.php? action=connexion">Se connecter</a>
         <?php } ?>
     </nav>
     <nav class="navbar list-categorie d-flex justify-content-around">
